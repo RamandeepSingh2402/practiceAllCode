@@ -7,6 +7,6 @@ public class HelloWorld {
         in.nextLine();
         System.out.println("Hey: " + name);
         System.out.println("How are you doing today? ");
-        String mood = in.nextLine();
+        String moodOfTheDay = in.nextLine();
     }
 }

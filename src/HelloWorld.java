@@ -4,6 +4,9 @@ public class HelloWorld {
         Scanner in = new Scanner(System.in);
         System.out.print("Hey!\nPlease enter your first name: ");
         String name = in.next();
+        in.nextLine();
         System.out.println("Hey: " + name);
+        System.out.println("How are you doing today? ");
+        String mood = in.nextLine();
     }
 }

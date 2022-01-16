@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
-public class HelloWorld {
+public class Main {
     public static void main(String[] args) throws IOException {
         Scanner in = new Scanner(System.in);
         System.out.print("Hey!\nPlease enter your first name: ");

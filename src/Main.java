@@ -34,7 +34,6 @@ public class Main {
         namesOfContacts.add(contact);
         System.out.print("First contact's name is: ");
         System.out.println(namesOfContacts.getFirst().contactName);
-
     }
 
     }

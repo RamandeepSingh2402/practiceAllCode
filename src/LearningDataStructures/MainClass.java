@@ -21,6 +21,7 @@ public class MainClass {
         list.add(list, fifthItem);
         list.add(list, sixthItem);
 
+<<<<<<< HEAD
         //Taking in the two integers for adding them
         System.out.println("Kindly enter the two integers which you want to add: ");
         int a = in.nextInt();
@@ -51,4 +52,9 @@ public class MainClass {
             return ""+this.sum;
         }
     }
+=======
+        //Printing the LinkedList
+        list.print(list);
+    }
+>>>>>>> 9a90c7a48228119461ac882b9c4b77498a9a8f9f
 }

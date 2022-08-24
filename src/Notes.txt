@@ -8,4 +8,8 @@
 6. POLYMORPHISM: Greek word which means many forms. It is of two types: Compile time and run time.
 7. A default constructor is always provided by JAVA
 8. Whatever we use after new is a constructor and it simply helps in constructing the object of a class.
+9. "static" whenever static keyword is used, it makes the variable the property of the class instead of the property of the object.
+10. Use the static keyword wherever you're trying to make a property which is independent of the object and is constant for a class and doesn't depend on the object.
+11. Overriding the constructor by using the same name of the constructor but different parameters.
+
 

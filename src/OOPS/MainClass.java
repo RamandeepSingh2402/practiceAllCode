@@ -12,9 +12,7 @@ public class MainClass {
         System.out.println(p1.age + " " + p1.name);
 
         //creating the second object of the Person class
-        Person p2 = new Person();
-        p2.name = "Shivam";
-        p2.age = 25;
+        Person p2 = new Person(31, "Shivam Sharma");
 
         //printing the details of the second person
         System.out.println(p2.age + " " + p2.name);
@@ -23,16 +21,26 @@ public class MainClass {
         p1.eat();
         p2.walk();
         p2.walk(2);
+
+        //calling "count" which is the property of the Person class now instead of the object
+        System.out.println(Person.count);
     }
 }
 
 class Person {
     String name;
     int age;
+    static int count;
 
     public Person(){
+        count++;
         System.out.println("Creating an object.");
     }
+    public Person(int newAge, String newName){
+        name = newName;
+        age = newAge;
+    }
+
     void walk(){
         System.out.println( name + " is walking.");
     }

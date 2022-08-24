@@ -1,0 +1,10 @@
+1. There can be only one "public class" in a package and the name of the class having main method must be same as the
+   name of the public class
+
+2. In the example, Person is the blueprint and multiple persons can be made by the help of the same Person class.
+3. "p1" is the object of Person class.
+4. eat() and walk() are methods of Person class.
+5. THERE CAN BE MULTIPLE METHODS WITH THE SAME NAME BUT DIFFERENT ARGUMENTS- This is called POLYMORPHISM
+6. POLYMORPHISM: Greek word which means many forms. It is of two types: Compile time and run time.
+
+

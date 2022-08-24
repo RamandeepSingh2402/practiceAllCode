@@ -1,0 +1,5 @@
+1. There can be only one "public class" in a package and the name of the class having main method must be same as the
+   name of the public class
+
+2. In the example, Person is the blueprint and multiple persons can be made by the help of the same Person class.
+3. "p1" is the object of Person class.

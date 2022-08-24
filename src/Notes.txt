@@ -41,3 +41,7 @@
 29. To make a method class specific, use "private", to make the method package specific, don't use anything, and to make a
     method accessible to all, make the method "public".
     To make a method specifically accessible to the children of a particular class, mark it as "protected".
+30. Encapsulation helps in data hiding and helps boost security.
+31. Data hiding because of the security reasons make encapsulation important and also, if we set something private and then
+    we want to change something, we can do so by creating getters and setters and can use the public setMethod to change
+    the value in the variable.

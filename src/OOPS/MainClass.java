@@ -46,7 +46,7 @@ class Developer extends Person{
 }
 
 class Person {
-    String name;
+    protected String name;
     int age;
     static int count;
 

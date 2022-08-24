@@ -36,6 +36,8 @@
 26. If we remove the work public, then that method won't be visible, and if the word public is not used in the package, then the
     method won't be visible to any other package as well. It'd be available in it's children packages, but won't be available in the packages outside the package.
 27. If we change the access modifier to private, it means that we'd be able to get the method just in that class, even not in the same package.
-    It makes the method class specific rather than making it accesible for the rest of the package.
-28.
-
+    It makes the method class specific rather than making it accessible for the rest of the package.
+28. For example in the example, we can see that even EncapsulationMain does not have access to "doWork()" as it is private.
+29. To make a method class specific, use "private", to make the method package specific, don't use anything, and to make a
+    method accessible to all, make the method "public".
+    To make a method specifically accessible to the children of a particular class, mark it as "protected".

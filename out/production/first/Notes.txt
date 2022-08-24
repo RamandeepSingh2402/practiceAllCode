@@ -45,3 +45,17 @@
 31. Data hiding because of the security reasons make encapsulation important and also, if we set something private and then
     we want to change something, we can do so by creating getters and setters and can use the public setMethod to change
     the value in the variable.
+32. ABSTRACTION: It is similar to encapsulation in terms of data hiding, but here we're not hiding data because of security reasons,\
+    but we're hiding the data in order to reduce the complexity.
+    It is used to hide the complexities from the user which are unnecessary for the user.
+    It can be achieved by the use of either "abstract" keyword or by the help of interfaces.
+33. In Abstraction.java, Car is just a concept and there's no fun of making a object of the Car class. It's better to
+    make the Car an abstract class and make the objects of the cars of particular companies. If we make a class abstract, then
+    we can't make the objects of that class. We can't make the object of an abstract class (CAR) and we can only make the objects
+    of the children of that abstract class.
+    We can make a method an abstract method as well, and then we don't have to provide its implementation as well.
+    SO ALL THE ABSTRACT METHODS DO NOT HAVE ANY DEFINITION.
+    The implementation of the abstract methods is done by the children which are extending that class.
+    An abstract method needs to be overridden, a method is made abstract so that it can be overridden.
+    In the example, we're providing the implementation of the start() method to BMW and Audi instead of Car because
+    the car is not starting (it is a concept), but instead the BMW or Audi is the car which is starting.

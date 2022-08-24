@@ -22,8 +22,21 @@ public class MainClass {
         p2.walk();
         p2.walk(2);
 
+        // creating a new developer
+        Developer d1 = new Developer(20, "Ramandeep");
+        d1.walk();
+
         //calling "count" which is the property of the Person class now instead of the object
         System.out.println(Person.count);
+    }
+}
+
+class Developer extends Person{
+    public Developer(int age, String name){
+        super(age, name);
+    }
+    void walk(){
+        System.out.println("Developer " + name + " is walking.");
     }
 }
 
@@ -50,5 +63,8 @@ class Person {
     }
     void walk(int steps){
         System.out.println(name + " walked " + steps + " steps.");
+    }
+    void doWork(){
+        System.out.println("Person is working");
     }
 }

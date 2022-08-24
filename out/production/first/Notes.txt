@@ -13,5 +13,17 @@
 11. Overriding the constructor by using the same name of the constructor but different parameters.
 12. "this()" keyword: whenever we want to call a constructor from another constructor, we use this keyword.
 13. "this." keyword: is used when we want to make sure that we use the variable of a particular class, i.e. the variable of this class is equal to the incoming argument.
-
-
+14. INHERITANCE: inheriting the properties of the parent class.
+15. "super" keyword is used to call the constructor of the parent.
+16. In the code, whenever a new Developer is created, it makes a person automatically as well with the use of the super keyword
+    that means when the developer is created, the super keyword passes the name and the age of the developer to the parent class,
+    which in this case is Person class and hence it creates a person as well.
+17. With the help of "this" keyword, we can access the properties of the current class and with the help of the super keyword,
+    we can access the properties of the super/parent class.
+18. Because of inheritance, developer would also get access to all the properties, functions and the methods of the instant parent class.
+19. There can be multiple inheritance levels and the class inheriting the maximum number of classes will have the maximum access of the above methods.
+20. For the functions being called, when the function being called is not in that particular method, it goes to the nearest
+    parent and looks for the function in that parent.
+21. In the code, it checks for the walk function in the Developer class, but doesn't find it and hence it goes to the Person class
+    to look for the walk function and if it was not present in the Person class, it would go to the next class to look for the walk function.
+22. For all the objects in Java, the parent of all the objects is Object Class.

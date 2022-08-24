@@ -11,5 +11,7 @@
 9. "static" whenever static keyword is used, it makes the variable the property of the class instead of the property of the object.
 10. Use the static keyword wherever you're trying to make a property which is independent of the object and is constant for a class and doesn't depend on the object.
 11. Overriding the constructor by using the same name of the constructor but different parameters.
+12. "this()" keyword: whenever we want to call a constructor from another constructor, we use this keyword.
+13. "this." keyword: is used when we want to make sure that we use the variable of a particular class, i.e. the variable of this class is equal to the incoming argument.
 
 

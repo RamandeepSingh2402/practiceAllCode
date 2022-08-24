@@ -37,8 +37,9 @@ class Person {
         System.out.println("Creating an object.");
     }
     public Person(int newAge, String newName){
-        name = newName;
-        age = newAge;
+        this();
+        this.name = newName;
+        this.age = newAge;
     }
 
     void walk(){

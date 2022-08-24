@@ -5,7 +5,9 @@
 3. "p1" is the object of Person class.
 4. eat() and walk() are methods of Person class.
 5. THERE CAN BE MULTIPLE METHODS WITH THE SAME NAME BUT DIFFERENT ARGUMENTS- This is called POLYMORPHISM
-6. POLYMORPHISM: Greek word which means many forms. It is of two types: Compile time and run time.
+6. POLYMORPHISM: Greek word which means many forms.
+   It is of two types: Compile time (when there are two methods with the same name and different parameters at the same level) and
+   run time (when there are two methods of the same name but they are at different inheritance levels).
 7. A default constructor is always provided by JAVA
 8. Whatever we use after new is a constructor and it simply helps in constructing the object of a class.
 9. "static" whenever static keyword is used, it makes the variable the property of the class instead of the property of the object.
@@ -27,3 +29,6 @@
 21. In the code, it checks for the walk function in the Developer class, but doesn't find it and hence it goes to the Person class
     to look for the walk function and if it was not present in the Person class, it would go to the next class to look for the walk function.
 22. For all the objects in Java, the parent of all the objects is Object Class.
+23. Encapsulation: means encapsulating all the methods and properties which are working on a method altogether.
+24. Packages and access modifiers: Naming convention: The name of all the packages should start with a lowe case letter and should also
+    follow the camel case notation.

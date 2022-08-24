@@ -29,3 +29,13 @@
 21. In the code, it checks for the walk function in the Developer class, but doesn't find it and hence it goes to the Person class
     to look for the walk function and if it was not present in the Person class, it would go to the next class to look for the walk function.
 22. For all the objects in Java, the parent of all the objects is Object Class.
+23. Encapsulation: means encapsulating all the methods and properties which are working on a method altogether.
+24. Packages and access modifiers: Naming convention: The name of all the packages should start with a lowe case letter and should also
+    follow the camel case notation.
+25. If a method is public, then we're able to call the object of another package in our package.
+26. If we remove the work public, then that method won't be visible, and if the word public is not used in the package, then the
+    method won't be visible to any other package as well. It'd be available in it's children packages, but won't be available in the packages outside the package.
+27. If we change the access modifier to private, it means that we'd be able to get the method just in that class, even not in the same package.
+    It makes the method class specific rather than making it accesible for the rest of the package.
+28.
+

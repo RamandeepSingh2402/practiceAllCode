@@ -59,3 +59,13 @@
     An abstract method needs to be overridden, a method is made abstract so that it can be overridden.
     In the example, we're providing the implementation of the start() method to BMW and Audi instead of Car because
     the car is not starting (it is a concept), but instead the BMW or Audi is the car which is starting.
+    IF A METHOD OR A FUNCTION IS ABSTRACT, THEN MAKING THE WHOLE CLASS ABSTRACT IS A NECESSITY.
+    YOU CAN'T MAKE THE OBJECTS OF THE ABSTRACT CLASS, BUT HAVE TO WORK ON THE CHILDREN INSTEAD.
+    WE CAN MAKE CONCRETE FUNCTIONS/METHODS(methods with proper implementation/ methods with body) IN ABSTRACT CLASSES
+34. All the methods in the INTERFACES are by default public and abstract.
+    INTERFACES PROVIDE TRUE ABSTRACTION (there cannot be any concrete method/function).
+    JAVA DOESN'T ALLOW MULTIPLE INHERITANCES.
+    A class can implement one and only one interface at a particular time.
+    A class can have multi level parents, but a class cannot have multiple immediate parents at a level.
+
+

@@ -25,4 +25,8 @@ abstract class Car{
 
     int price;
     abstract void start();
+
+    void breaks(){
+        System.out.println("The car is breaking.");
+    }
 }
